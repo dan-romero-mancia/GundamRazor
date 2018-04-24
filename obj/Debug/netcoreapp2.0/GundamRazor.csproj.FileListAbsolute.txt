@@ -1,0 +1,10 @@
+/home/daniel/Documents/NET_Projects/GundamRazor/bin/Debug/netcoreapp2.0/GundamRazor.deps.json
+/home/daniel/Documents/NET_Projects/GundamRazor/bin/Debug/netcoreapp2.0/GundamRazor.runtimeconfig.json
+/home/daniel/Documents/NET_Projects/GundamRazor/bin/Debug/netcoreapp2.0/GundamRazor.runtimeconfig.dev.json
+/home/daniel/Documents/NET_Projects/GundamRazor/bin/Debug/netcoreapp2.0/GundamRazor.dll
+/home/daniel/Documents/NET_Projects/GundamRazor/bin/Debug/netcoreapp2.0/GundamRazor.pdb
+/home/daniel/Documents/NET_Projects/GundamRazor/obj/Debug/netcoreapp2.0/GundamRazor.csproj.CoreCompileInputs.cache
+/home/daniel/Documents/NET_Projects/GundamRazor/obj/Debug/netcoreapp2.0/GundamRazor.AssemblyInfoInputs.cache
+/home/daniel/Documents/NET_Projects/GundamRazor/obj/Debug/netcoreapp2.0/GundamRazor.AssemblyInfo.cs
+/home/daniel/Documents/NET_Projects/GundamRazor/obj/Debug/netcoreapp2.0/GundamRazor.dll
+/home/daniel/Documents/NET_Projects/GundamRazor/obj/Debug/netcoreapp2.0/GundamRazor.pdb
