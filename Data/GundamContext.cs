@@ -1,6 +1,5 @@
 using GundamRazor.Models;
 using Microsoft.EntityFrameworkCore;
-using MySQL.Data.EntityFrameworkCore.Extensions;
 
 namespace GundamRazor.Data {
     public class GundamContext : DbContext {
@@ -14,7 +13,11 @@ namespace GundamRazor.Data {
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;database=gundamrazor;user=gundamuser;password=password");
+            optionsBuilder.UseMySql(@"Server=localhost;database=gundamrazor;uid=gundamuser;pwd=password");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+            modelBuilder.Entity<WishlistItem>().HasKey(t => new { t.ModelKitID, t.GundamUserID });
         }
     }
 }
