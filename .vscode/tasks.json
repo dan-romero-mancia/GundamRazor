@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "build",
-            "command": "dotnet",
+            "command": "TERM=xterm dotnet",
             "type": "process",
             "args": [
                 "build",
